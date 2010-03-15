@@ -12,6 +12,7 @@
 		<h1>Contato</h1>
 		
 		<?php
+		error_reporting (0);
 			$email='kelimar007@hotmail.com';
 			$assunto=$_POST['assunto'];
 			$mensagem=$_POST['mensagem'];
@@ -24,7 +25,7 @@
 
 		<?php else: ?>
 	
-			<p> Não foi possível enviar seu email. Tente mais tarde.</p>	
+			<p> NÃ£o foi possÃ­vel enviar seu email. Tente mais tarde.</p>	
 		<?php endif; ?>
 
 	</div>
