@@ -8,16 +8,25 @@
 	  article, aside, figure, footer, header, hgroup,
 	  menu, nav, section { display: block; }
 	</style>
+	<style>
+	
+		/*Refatoração*/
+		label, input, textarea, button {
+			display: block;
+		}
+					
+	</style>
+		
 
 </head>
 <body>
 	<div class="container">
+		<h1>Contato</h1>
 		<form method="post" action="enviaremail.php">
-			<label>Assunto</label>
 			<input type="text" name="assunto">
 			<label>Mensagem</label>
 			<textarea name="mensagem"></textarea>
-			<button type="submit">Enviar emmail</button>
+			<button type="submit">Enviar email</button>
 		</form>		
 	</div>
 </body>

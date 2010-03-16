@@ -25,7 +25,7 @@
 
 		<?php else: ?>
 	
-			<p> Não foi possível enviar seu email. Tente mais tarde.</p>	
+			<p> Não foi possível enviar seu email. Tente mais tarde!</p>	
 		<?php endif; ?>
 
 	</div>
